@@ -1,0 +1,36 @@
+*,::before,*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: auto;
+    font-family: 'Calibri', sans-serif;
+    
+}
+.header,footer,h1 {
+    background-color: blue;
+    color: white;
+    display: flex; justify-content: center;
+    align-items: center; align-content: center;
+    
+    
+}
+.fondobody {
+    background-color: rgb(206, 206, 206);
+    width: 100vw;
+    height: 100%;
+    justify-content: center; justify-content: center;
+    display: flex;
+    
+
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: auto;
+}
+
+th, td {
+    border: 1px solid rgb(153, 149, 149);
+    padding: 8px;
+    text-align: center;
+}

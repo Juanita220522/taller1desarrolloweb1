@@ -1,0 +1,52 @@
+*,::before,*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: auto;
+    font-family: 'Calibri', sans-serif;
+}
+.fondobody {
+    background-color: rgb(236, 235, 235);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}  
+.registro{
+    background-color: white;
+    border-radius: 12px;
+    width: 40vw;
+    display: flex;
+    height: auto;
+    align-items:center;
+    padding: 5px;
+    flex-direction: column;
+    
+}
+.registro input[type="text"],
+.registro input[type="date"] {
+    width: 39vw;
+    height: 1vh;
+    padding: 10px;
+    margin-bottom: 18px; 
+    border: 1px rgb #a78f8f; 
+    border-radius: 4px;
+}
+button{
+    background-color: rgb(20, 168, 20);
+    color: white;
+    border: none;
+    width: 80vh;
+    height: 5vh;
+    border-radius: 4px;
+}
+h2 {
+    text-align:center;
+    margin-bottom: 10px; 
+}
+p {
+    width: 100%;
+    margin-bottom: 5
+}
